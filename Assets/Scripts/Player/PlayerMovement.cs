@@ -12,6 +12,8 @@ namespace TaskReccoGame.Player
         private Rigidbody2D _rigidbody;
         private Vector2 _movementInput;
 
+        public Vector2 MovementInput => _movementInput;
+        
         private void Awake()
         {
             _rigidbody = GetComponent<Rigidbody2D>();
