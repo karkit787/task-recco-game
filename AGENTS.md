@@ -136,8 +136,8 @@ Keep mutable runtime/player state separate from definition assets. Do not mutate
 - Prefer Tilemaps for terrain/environment where appropriate.
 - Separate visual and collision tilemaps when it improves maintainability.
 - Keep gameplay/objective logic out of visual tile assets.
-- Each tile is 32x32 pixels.
-- Character sprites will be maximum 32 pixels wide and 64 pixels tall.
+- Each tile is 16x16 pixels.
+- Character sprites will be maximum 16 pixels wide and 16 pixels tall.
 
 ### Animation / Camera / UI
 

@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 2167557783950309370}
   - component: {fileID: 892268992345622002}
   - component: {fileID: 8630801267630239587}
+  - component: {fileID: 2700092355791491040}
+  - component: {fileID: 2700092355791491041}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -208,3 +210,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f60ee589714076469c548b3542aa926, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TaskReccoGame.Player.PlayerAnimation
+--- !u!114 &2700092355791491040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2205663234255127208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f573dfed10354df8982db86d1e6c5403, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::TaskReccoGame.Progression.PlayerProgression
+--- !u!114 &2700092355791491041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2205663234255127208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0187619a6d04f42b0de45f47b2c898d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::TaskReccoGame.Player.PlayerInteraction
+  _inputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  _interactionRadius: 0.8
+  _interactableLayers:
+    serializedVersion: 2
+    m_Bits: 256

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e28cf631ec74091a59cf163eae050fd, type: 3}
+  m_Name: InspectTrainingMarker
+  m_EditorClassIdentifier: Assembly-CSharp::TaskReccoGame.Objectives.ObjectiveDefinition
+  _id: inspect-training-marker
+  _displayName: Inspect Training Marker
+  _type: 0
+  _coinReward: 10
+  _scoreReward: 20
+  _difficulty: 0
+  _capabilityRequirements:
+    _movementLevel: 0
+    _combatLevel: 0
+    _equipmentId:
